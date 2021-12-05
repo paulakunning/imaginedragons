@@ -47,6 +47,7 @@ body{
     position: sticky;
     top: 0;
     padding: 0 20px;
+    z-index: 999;
 }
 .navbar li{ 
     padding: 15px;
@@ -164,7 +165,8 @@ body{
     max-width: 90%;
 } 
 .formulario{
-    background-color: rgba(94, 80, 63, 0.50);
+    background: rgb(94,80,63);
+    background: linear-gradient(45deg, rgba(94,80,63,1) 35%, rgba(105,110,111,1) 97%);
     border-radius: 20px;
     text-align: center;
     line-height: 2.5;
@@ -381,3 +383,8 @@ footer p {
         margin: 15%;
     }
 }
+@media screen and (max-width: 1023px) {
+    .wow {
+      animation-name: none !important;
+      visibility: visible !important;
+    }
