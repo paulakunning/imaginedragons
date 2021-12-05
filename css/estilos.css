@@ -53,7 +53,8 @@ body{
     margin: auto;
     list-style: none;
     
-}.navbar li a{
+}
+.navbar li a{
     color: #c6ac8fff;
     font-family: 'Cormorant', serif;
     text-decoration: none;
