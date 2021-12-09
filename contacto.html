@@ -1,45 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Contacto</title>
 </head>
 <body>
-    <!-- header del sitio -->
-    <div class="navbar">
-        <div>
-            <img class="logoNav" src="./images/logoNav.jpg" alt="">
+     <!-- header del sitio -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="logoNav" src="/images/logoNav.jpg" alt="Imagine Dragons Logo">
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tour.html">Tour</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="./discografia.html">Discografía</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/contacto.html">Contacto</a>
+                </li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <ul class="navItems">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./tour.html">Tour</a></li>
-                <li><a href="./discografia.html">Discografía</a></li>
-                <li><a href="./galeria.html">Galería</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- fin del header -->
-    <div class="formulario">
-        <div>
-            <p class="tituloInt">¡Dejanos tu mensaje!</p>
-        </div>
-        <div>
-            <form action="" method="get" enctype="multipart/form-data">
-            <div><input type="text" name="nombre" placeholder="Nombre" required></div>
-            <div><input type="text" name="apellido" placeholder="Apellido" required></div>
-            <div><input type="email" name="Email" placeholder="E-mail" required></div>
-            <div><textarea name="Mensaje" placeholder="Escribe tu mensaje aquí..." id="" cols="20" rows="10"></textarea></div>
-            <div><input type="checkbox" name="" id=""> <label>Deseo suscribirme al newsletter</label></div>
-            <div><input type="submit" name="Enviar" value="Enviar"></div>
-            </form> 
-        </div>
-    </div>
-   
+    </nav>
+    <!-- fin del header -->  
+     <form action="" class="container formulario">
+            <div>
+                <p class="text-uppercase text-center bg-transparent formTitle">¡Dejanos tu mensaje!</p>
+            </div>
+            <div class="mb-3 col-4 offset-4">
+                <input type="text" class="mb-3 form-control" name="nombre" placeholder="Nombre" id="">
+                <input type="text" class="mb-3 form-control" name="apellido" placeholder="Apellido" id="">
+            </div>
+            <div class="mb-3 col-4 offset-4">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+            <div class="mb-3 form-floating col-4 offset-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Escribe tu mensaje aquí...</label>
+            </div>
+            <div class="mb-3 form-check col-4 offset-4">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-white" for="exampleCheck1">Deseo suscribirme al newsletter</label>
+            </div>
+            <div>            
+                <button type="submit" class="btn btn-dark btn-outline-secondary  col-2 offset-4">Limpiar</button>
+                <button type="button" class="btn btn-dark col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+            </div>
+        </form>
+        
     <!-- inicio de footer-->
     <footer>
         <div>
@@ -52,7 +75,5 @@
         <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
     </footer>
     <!-- fin de footer-->
-    <script src="js/wow.js"></script>
-    <script> new WOW().init();</script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </html>

@@ -1,89 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Imagine Dragons</title>
 </head>
-<body>
+  <body>
     <!-- header del sitio -->
-    <div class="navbar">
-        <div>
-            <img class="logoNav" src="./images/logoNav.jpg" alt="Logo Imagine Dragons">
-        </div>
-        <div>
-            <ul class="navItems">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./tour.html">Tour</a></li>
-                <li><a href="./discografia.html">Discografía</a></li>
-                <li><a href="./galeria.html">Galería</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="logoNav" src="/images/logoNav.jpg" alt="Imagine Dragons Logo">
+            </a>
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tour.html">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./discografia.html">Discografía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </div>
+      </nav>
     <!-- fin del header -->
-    <div class="gridHome">
-        <div class="img1">
-            <img class="imgSize wow animate__animated animate__zoomIn" src="images/img1.jpg" alt="">
+    <!-- inicio carousel -->
+    <div id="carouselExampleControls" class="container-lg carousel slide carrousel col-lg-10 container-sm mb-lg-3 mb-md-2" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/img1.jpg" class="d-block w-100" alt="Imagine Dragons">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/img2.jpg" class="d-block w-100" alt="Imagine Dragons">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/img3.jpg" class="d-block w-100" alt="Imagine Dragons">
+          </div>
         </div>
-        <div class="img2">
-            <img class="imgSize wow animate__animated animate__zoomIn" src="images/img2.jpg" alt="">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      <!-- fin carousel -->
+    <div class="container-fluid d-flex col-lg-10 offset-lg-1 mb-lg-3 centradoTexto">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel tempor morbi eget vel at rhoncus aliquam convallis duis. Nulla odio nullam nisi, interdum amet odio diam,morbi in. Quis suspendisse et, eget sagittis et faucibus orci erat nisi. Vitae eget eros faucibus orci, venenatis arcu, feugiat. Eget ultrices commodo non nibh mauris tempor, urna nisi, nullam. Elementum etiam ut a, bibendum justo malesuada fermentum a, mauris. Quam fermentum vel dis potenti convallis id a. In at vel nibh dolor ut at.
+     </p>
+    </div>
+    <div class="d-flex flex-wrap">
+        <div class="col-lg-5 offset-lg-1">
+            <img class="img-fluid wow animate__animated animate__zoomIn animate__delay-1s" src="images/img4.jpg" alt="">
+        </div>
+        <div class="col-lg-5 m-1">
+            <img class="img-fluid wow animate__animated animate__zoomIn animate__delay-1s" src="images/img5.jpg" alt="">
         </div>
     </div>
-    <div class="gridParrafos">
-        <div class=" centradoTexto texto1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel tempor morbi eget vel
-        at rhoncus aliquam convallis duis. Nulla odio nullam nisi, interdum amet odio diam,
-        morbi in. Quis suspendisse et, eget sagittis et faucibus orci erat nisi. Vitae eget eros
-        faucibus orci, venenatis arcu, feugiat. Eget ultrices commodo non nibh mauris
-        tempor, urna nisi, nullam. Elementum etiam ut a, bibendum justo malesuada
-        fermentum a, mauris. Quam fermentum vel dis potenti convallis id a. In at vel nibh
-        dolor ut at.</p>
-        </div>
-    </div>
-    <div class="gridHome">
-        <div class="img1">
-            <img class="imgSize wow animate__animated animate__zoomIn animate__delay-1s" src="images/img3.jpg" alt="">
-        </div>
-        <div class="img2">
-            <img class="imgSize wow animate__animated animate__zoomIn animate__delay-1s" src="images/img4.jpg" alt="">
-        </div>
-    </div>
-    <div class="titulo">
+    <div class="container-fluid col-10 offset-1 titulo">
         <p>INTEGRANTES</p>
     </div>
-    <div class="intIzq wow animate__animated animate__fadeInLeft">
-        <div class="intDragon">
-            <img class="imgAuto" src="images/Dan Reynolds.jpg" alt="">
+    <div class="container-fluid d-flex flex-column flex-wrap col-10 offset-1 mb-3 integrantes wow animate__animated animate__fadeInLeft">
+        <div class="container-fluid row-lg-4 offset-lg-0 flex-wrap ">
+            <img class="img-fluid" src="images/Dan Reynolds.jpg" alt="">
         </div>
-        <div class="intParrafo">    
+        <div class="container-fluid m-3 row-lg-3 offset-lg-0">    
             <p class="tituloInt">Dan Reynolds</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum placeat, eius unde sed alias voluptas inventore officiis itaque. Nesciunt enim repellat ipsa temporibus ipsam quaerat optio, quidem reiciendis labore dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque quaerat nemo, sequi accusamus nisi excepturi consequuntur tempore architecto ullam repellendus ex autem? Autem tempore sed, ipsam earum aliquid neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus ad neque dolores, architecto sed omnis nobis assumenda velit non atque aut, libero, qui dolor quisquam! Vel iusto autem molestiae!</p>
         </div>
     </div>
-    <div class="intDer wow animate__animated animate__fadeInRight">
-        <div class="intDragon">
-            <img class="imgAuto" src="images/Ben McKee.jpg" alt="">
+    <div class="container-fluid d-flex flex-wrap col-10 offset-1 mb-3 integrantes wow animate__animated animate__fadeInRight">
+        <div class="container">
+            <img class="img-fluid" src="images/Ben McKee.jpg" alt="">
         </div>
         <div class="intParrafo">    
             <p class="tituloInt">Ben McKee</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum placeat, eius unde sed alias voluptas inventore officiis itaque. Nesciunt enim repellat ipsa temporibus ipsam quaerat optio, quidem reiciendis labore dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque quaerat nemo, sequi accusamus nisi excepturi consequuntur tempore architecto ullam repellendus ex autem? Autem tempore sed, ipsam earum aliquid neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus ad neque dolores, architecto sed omnis nobis assumenda velit non atque aut, libero, qui dolor quisquam! Vel iusto autem molestiae!</p>
         </div>
     </div>
-    <div class="intIzq wow animate__animated animate__fadeInLeft">
-        <div class="intDragon">
-            <img class="imgAuto" src="images/Daniel Wayne Sermon.jpg" alt="">
+    <div class="container-fluid d-flex flex-wrap col-10 offset-1 mb-3 integrantes wow animate__animated animate__fadeInLeft">
+        <div class="">
+            <img class="img-fluid" src="images/Daniel Wayne Sermon.jpg" alt="">
         </div>
         <div class="intParrafo">    
             <p class="tituloInt">Daniel Wayne Sermon</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum placeat, eius unde sed alias voluptas inventore officiis itaque. Nesciunt enim repellat ipsa temporibus ipsam quaerat optio, quidem reiciendis labore dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque quaerat nemo, sequi accusamus nisi excepturi consequuntur tempore architecto ullam repellendus ex autem? Autem tempore sed, ipsam earum aliquid neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus ad neque dolores, architecto sed omnis nobis assumenda velit non atque aut, libero, qui dolor quisquam! Vel iusto autem molestiae!</p>
         </div>
     </div>
-    <div class="intDer wow animate__animated animate__fadeInRight">
+    <div class="container-fluid d-flex flex-wrap col-10 offset-1 mb-3 integrantes wow animate__animated animate__fadeInRight">
         <div class="intDragon">
-            <img class="imgAuto" src="images/Daniel Platzman.jpg" alt="">
+            <img class="img-fluid" src="images/Daniel Platzman.jpg" alt="">
         </div>
         <div class="intParrafo">    
             <p class="tituloInt">Daniel Platzman</p>
@@ -102,7 +126,8 @@
         <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
     </footer>
     <!-- fin de footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
     <script src="js/wow.js"></script>
     <script> new WOW().init();</script>
-</body>
+  </body>
 </html>

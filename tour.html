@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Tour</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Tour</title>
 </head>
 <body>
     <!-- header del sitio -->
-    <div class="navbar">
-        <div>
-            <img class="logoNav" src="./images/logoNav.jpg" alt="">
-        </div>
-        <div>
-            <ul class="navItems">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="tour.html">Tour</a></li>
-                <li><a href="./discografia.html">Discografía</a></li>
-                <li><a href="./galeria.html">Galería</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="logoNav" src="/images/logoNav.jpg" alt="Imagine Dragons Logo">
+            </a>
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/tour.html">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./discografia.html">Discografía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </div>
+      </nav>
     <!-- fin del header -->
-    <div class="box maxWidth">
+    <div class="box container-fluid col-lg-10 offset-lg-1">
         <img class="imgAuto" src="images/Tour.jpg" alt="">
     </div>
-    <div class="tour maxWidth">
-        <div class="titulo tituloMarg">Mercury Tour 2022</div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">6 FEB - MIAMI, FL, USA - FTX ARENA <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">10 FEB - RALEIGH, NC, USA - PNC ARENA <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">12 FEB -COLUMBIA, SC, USA - COLONIAL LIFE ARENA <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">16 FEB - MONTREAL, CANADA - CENTRE BELL <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">4 MAR - VANCOUVER, CANADA - ROGERS ARENA <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">12 MAR - LOS ANGELES, CA, USA - STAPLES CENTER <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">30 MAY - PRAGUE, CZECH REPUBLIC - LETNANY AIRPORT <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">11 JUN - MILAN, ITALY - I-DAYS (FESTIVAL) <button>Tickets</button></div>
-        <div class="box wow animate__animated animate__flipInX animate__slow">5 JUL - BERLIN, GERMANY - WALDBUHNE <button>Tickets</button></div>
+    <div class="container-fluid col-lg-10 offset-lg-1 text-center">
+        <div class="titulo">Mercury Tour 2022</div>
+        <div class="box mb-lg-2 mb-2">
+            <p>6 FEB - MIAMI, FL, USA - FTX ARENA</p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>10 FEB - RALEIGH, NC, USA - PNC ARENA</p> 
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>12 FEB -COLUMBIA, SC, USA - COLONIAL LIFE ARENA</p>  
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>16 FEB - MONTREAL, CANADA - CENTRE BELL</p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>4 MAR - VANCOUVER, CANADA - ROGERS ARENA </p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>12 MAR - LOS ANGELES, CA, USA - STAPLES CENTER</p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+            </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>30 MAY - PRAGUE, CZECH REPUBLIC - LETNANY AIRPORT </p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>11 JUN - MILAN, ITALY - I-DAYS (FESTIVAL)</p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
+        <div class="box mb-lg-2 mb-2">
+            <p>5 JUL - BERLIN, GERMANY - WALDBUHNE </p>
+            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+        </div>
     </div>
     
     <!-- inicio de footer-->
@@ -52,6 +94,7 @@
         <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
     </footer>
     <!-- fin de footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
     <script src="js/wow.js"></script>
     <script> new WOW().init();</script>
 </body>
