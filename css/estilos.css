@@ -11,28 +11,6 @@ body{
 p {
     color: #c6ac8fff;
 }
-/* .gridHome{
-    display: grid;
-    grid-template-areas: 
-    ". area1 area2 .";
-    gap: 2rem;
-    padding-top: 10px;
-}
-.img1{
-    grid-area: area1;
-}
-.img2{
-    grid-area: area2;
-}
-.gridParrafos{
-    display: grid;
-    grid-template-areas: 
-    ". texto1 texto1 .";
-    gap: 2rem;
-}
-.texto1{
-    grid-area: texto1;
-} */
 .imgs{
     max-height: 900px;
 } 
@@ -55,19 +33,12 @@ p {
     text-align: justify;
     background-color: rgba(10, 9, 8, 0.90);
     color: #c6ac8fff;
-    /* margin: 15px;
-    padding: 10px; */
 }
 .imgSize{
     width: 100%;
     height: 100%;
 }
 .integrantes{
-/*     display: flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 1rem 4rem; */
     border: solid 1px #5e503fff;
     background-color: rgba(10, 9, 8, 0.90);
 }
@@ -79,10 +50,6 @@ p {
     width: 100%;
     height: auto;
 }
-/* .intParrafo{
-    margin: 2rem;
-    max-width: 40%;
-} */
 .tituloInt{
     padding: 2rem;
     text-align: center;
@@ -93,9 +60,6 @@ p {
 .box{
     border: solid 1px #5e503fff;
     background-color: rgba(10, 9, 8, 0.90);
-    /* margin: 15px;
-    padding: 15px;
-    text-align: center; */
 }
 .titulo{
     background-color: rgba(10, 9, 8, 0.90);
