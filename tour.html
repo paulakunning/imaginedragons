@@ -6,18 +6,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Tour</title>
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  </head>
 <body>
     <!-- header del sitio -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
             <a href="index.html">
-                <img class="logoNav" src="/images/logoNav.jpg" alt="Imagine Dragons Logo">
+                <img class="logoNav" src="./images/logoNav.jpg" alt="Imagine Dragons Logo">
             </a>
           <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="./index.html">Home</a>
@@ -40,60 +41,76 @@
       </nav>
     <!-- fin del header -->
     <div class="box container-fluid col-lg-10 offset-lg-1">
-        <img class="imgAuto" src="images/Tour.jpg" alt="">
+        <img class="imgAuto" src="./images/Tour.jpg" alt="Imagine Dragons">
     </div>
-    <div class="container-fluid col-lg-10 offset-lg-1 text-center">
-        <div class="titulo">Mercury Tour 2022</div>
-        <div class="box mb-lg-2 mb-2">
-            <p>6 FEB - MIAMI, FL, USA - FTX ARENA</p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>10 FEB - RALEIGH, NC, USA - PNC ARENA</p> 
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>12 FEB -COLUMBIA, SC, USA - COLONIAL LIFE ARENA</p>  
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>16 FEB - MONTREAL, CANADA - CENTRE BELL</p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>4 MAR - VANCOUVER, CANADA - ROGERS ARENA </p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>12 MAR - LOS ANGELES, CA, USA - STAPLES CENTER</p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
+    <div class="container-fluid col-lg-10 offset-lg-1 text-center flex-wrap">
+      <div class="titulo">Mercury Tour 2022</div>
+      <div class="container">
+        <div class="row mt-2">
+            <div class=" tour col-10 offset-1 mb-5">
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">MIAMI, FL, USA - FTX ARENA</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">6 FEBRERO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">RALEIGH, NC, USA - PNC ARENA</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">10 FEBRERO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">COLUMBIA, SC, USA - COLONIAL LIFE ARENA</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">12 FEBRERO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">MONTREAL, CANADA - CENTRE BELL</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">16 FEBRERO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">VANCOUVER, CANADA - ROGERS ARENA </li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">4 MARZO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">LOS ANGELES, CA, USA - STAPLES CENTER</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">12 MARZO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">PRAGUE, CZECH REPUBLIC - LETNANY AIRPORT</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">30 MAYO</li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                </ul>
+                <ul class="list-group list-group-horizontal-sm py-1">
+                  <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">MILAN, ITALY - I-DAYS (FESTIVAL)</li>
+                  <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">11 JUNIO</li>
+                  <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+              </ul>
+              <ul class="list-group list-group-horizontal-sm py-1">
+                <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">BERLIN, GERMANY - WALDBUHNEL</li>
+                <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">5 JULIO</li>
+                <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+              </ul>
             </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>30 MAY - PRAGUE, CZECH REPUBLIC - LETNANY AIRPORT </p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>11 JUN - MILAN, ITALY - I-DAYS (FESTIVAL)</p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
-        </div>
-        <div class="box mb-lg-2 mb-2">
-            <p>5 JUL - BERLIN, GERMANY - WALDBUHNE </p>
-            <button class="btn btn-outline-light me-2" type="button">Tickets</button>
         </div>
     </div>
-    
-    <!-- inicio de footer-->
-    <footer>
-        <div>
-            <a href="https://www.facebook.com/ImagineDragons/" target="blank"> Facebook</a>
-            <a href="https://www.instagram.com/imaginedragons/" target="blank">Instagram</a>
-            <a href="https://twitter.com/Imaginedragons" target="blank">Twitter</a>
-            <a href="https://www.youtube.com/user/ImagineDragonsVEVO" target="blank">Youtube</a>
-            <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q" target="blank">Spotify</a>
-        </div>
-        <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
-    </footer>
-    <!-- fin de footer-->
+</div>
+ <!-- inicio de footer-->
+ <div class="footer d-flex flex-wrap-reverse align-items-center bottom-0 pt-2">
+  <div class="col-12 col-xl-6 text-center">
+    <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
+  </div>        
+  <div class="col-12 col-xl-6 text-center">
+    <a href="https://www.facebook.com/ImagineDragons/" target="blank"><i class="bi bi-facebook px-2"></i></a>
+    <a href="https://www.instagram.com/imaginedragons/" target="blank"><i class="bi bi-instagram px-2"></i></a>
+    <a href="https://twitter.com/Imaginedragons" target="blank"><i class="bi bi-twitter px-2"></i></a>
+    <a href="https://www.youtube.com/user/ImagineDragonsVEVO" target="blank"><i class="bi bi-youtube px-2"></i></a>
+    <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q" target="blank"><i class="bi bi-spotify px-2"></i></a>
+  </div>
+</div>
+<!-- fin de footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
     <script src="js/wow.js"></script>
     <script> new WOW().init();</script>

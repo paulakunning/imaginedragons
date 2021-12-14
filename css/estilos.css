@@ -11,9 +11,6 @@ body{
 p {
     color: #c6ac8fff;
 }
-.imgs{
-    max-height: 900px;
-} 
 .navbar a {
     color: #c6ac8fff;
 }
@@ -27,24 +24,11 @@ p {
     color: #5e503fff;
 }
 .logoNav{
-    max-width: 60%;
+    max-width: 40%;
 } 
-.centradoTexto{
-    text-align: justify;
-    background-color: rgba(10, 9, 8, 0.90);
-    color: #c6ac8fff;
-}
-.imgSize{
-    width: 100%;
-    height: 100%;
-}
 .integrantes{
     border: solid 1px #5e503fff;
     background-color: rgba(10, 9, 8, 0.90);
-}
-.intDragon{
-    margin: 2rem;
-    max-width: 60%;
 }
 .imgAuto{
     width: 100%;
@@ -64,24 +48,43 @@ p {
 .titulo{
     background-color: rgba(10, 9, 8, 0.90);
     text-align: center;
+    margin-top: 3rem;
     font-size: 3rem;
-    margin: 20px 40px;
-    padding: 10px;
     font-family: 'Cormorant', serif;
     color: #c6ac8fff;
 }
 .subtitulo{
     background-color: rgba(10, 9, 8, 0.90);
     text-align: center;
-    margin: 40px;
-    padding: 5px;
+    font-size: 1.3rem;
+
 }
-.tour{
-    display: flex;
-    flex-direction: column;
+.tour ul li{
+    background-color: rgba(10, 9, 8, 0.95);
+    color: #c6ac8fff;
+    font-weight: bold;
 }
-.tituloMarg{
-    margin: 15px;
+.titleCds{
+    font-family: 'Cormorant', serif;
+    color: #c6ac8fff;
+    font-size: 2rem;
+    text-align: center;
+}
+.songs {
+    color:#c6ac8fff;
+}
+.tapaCd{
+    width: 200px;
+    height: 200px;
+}
+.bg-cd{
+    background-color: rgba(71, 61, 50, 0.7);
+}
+.tapaTitulo{
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    color: #c6ac8fff;
+    text-align: center;
 }
 .galery{
     display: flex;
@@ -107,222 +110,64 @@ p {
     background: linear-gradient(45deg, rgba(94,80,63,1) 35%, rgba(105,110,111,1) 97%);
     border-radius: 20px;
     padding: 3rem;
-    margin-top: 15px;
-    max-width: auto;
+    margin-top: 5rem;
 }
 .formTitle{
     font-size: 2rem;
     font-family: 'Cormorant', serif;
     color: #c6ac8fff;
 }
-.musicPlayer{
-    display: grid;
-    grid-template-areas: 
-    "cd1 cd2 cd3"
-    "cd4 cd5 cd6";
-    gap: 2rem;
-    margin: 0 2rem;
-}
-.cd1{
-    grid-area: "cd1";
-}
-.cd2{
-    grid-area: "cd2";
-}
-.cd3{
-    grid-area: "cd3";
-}
-.cd4{
-    grid-area: "cd4";
-}
-.cd5{
-    grid-area: "cd5";
-}
-.cd6{
-    grid-area: "cd6";
-}
-footer{
-    padding: 15px;
-    margin-top: 20px;
+.footer{
     background-color: #0a0908ff;
     color: #c6ac8fff;
     font-family: 'Cormorant', serif;
-    text-align: center;
     line-height: 2.5rem;
 }
-footer a{
+.footer a{
     text-decoration: none;
     color: #c6ac8fff;
+    font-size: 2rem;
 }
-footer p {
-    font-size: 1.5rem;
+.footer p {
+    font-size: 1.25rem;
+}
+.footer a:hover{
+    color: #5e503fff;
 }
 .maxWidth{
     max-width: 1170px;
     margin: auto;
 }
-/****** Media queries ******/
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .gridHome{
-        display: grid;
-        grid-template-areas: 
-        "area1"
-        "area2";
-        gap: 1rem;
-        margin: 1rem;
-    }
-    .img1{
-        grid-area: area1;
-    }
-    .img2{
-        grid-area: area2;
-    }
-    .gridParrafos{
-        display: grid;
-        grid-template-areas: 
-        "texto1";
-        gap: 1rem;
-    }
-    .texto1{
-        grid-area: texto1;
-        font-size: 1.7rem;
-        line-height: 1.5;
-    }
-    .intIzq{
-        display: flex;
-        flex-direction: column;
-        margin: 1rem 1rem;
-        width: auto;
-    }
-    .intDragon{
-        max-width: 100%;
-    }
-    .imgAuto{
-        width: 100%;
-        height: auto;
-    }
-    .intParrafo{
-        max-width: 100%;
-        font-size: 1.7rem;
-        line-height: 1.5;
-    }
-    .intDer{
-        display: flex;
-        flex-direction:column;
-        justify-content: space-around;
-        align-items: center;
-        margin: 1rem 1rem;
-    }
-    .tituloInt{
-        padding: 1rem;
-        text-align: center;
-        font-size: 3rem;
-    }
-    .navbar, .navItems, footer a{
-        display: flex;
-        flex-direction: column;
-        position: inherit;
-        text-align: center;
-    }
-    .musicPlayer{
-        display: grid;
-        grid-template-areas: 
-        "cd1" 
-        "cd2"
-        "cd3"
-        "cd4"
-        "cd5" 
-        "cd6";
-        gap: 1rem;
-        margin: 0 1rem;
-    }
-    .cd1{
-        grid-area: "cd1";
-    }
-    .cd2{
-        grid-area: "cd2";
-    }
-    .cd3{
-        grid-area: "cd3";
-    }
-    .cd4{
-        grid-area: "cd4";
-    }
-    .cd5{
-        grid-area: "cd5";
-    }
-    .cd6{
-        grid-area: "cd6";
-    }
-    .galery{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;   
-        align-items: center;
-    } 
-    .imgGalery{
-        max-width: 300px;
-        height: auto;
-    }
-    .video{
-        max-width: 300px;
-        padding: 1rem;
-    }
-    .videos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .titulo{
-        font-size: 2.5rem;
-        background-size: cover;
-    }
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.90);
+    border-color: #c6ac8fff;
+    border-radius: 1rem;
 }
-@media screen and (min-width: 578px) and (max-width: 1200px){
-    .musicPlayer{
-        display: grid;
-        grid-template-areas: 
-        "cd1 cd2"
-        "cd3 cd4"
-        "cd5 cd6";
-        gap: 1.5rem;
-        margin: 0 1.5rem;
+/****** Media queries ******/
+@media screen and (max-width: 992px) {
+    .tituloInt {
+        font-size: 2rem;
     }
-    .cd1{
-        grid-area: "cd1";
+    .titulo {
+        font-size: 2rem;
+        text-align: center;
     }
-    .cd2{
-        grid-area: "cd2";
-    }
-    .cd3{
-        grid-area: "cd3";
-    }
-    .cd4{
-        grid-area: "cd4";
-    }
-    .cd5{
-        grid-area: "cd5";
-    }
-    .cd6{
-        grid-area: "cd6";
-    }
-    .galery{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;   
-        align-items: center;
-    } 
-    .videos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .titulo{
-        font-size: 4rem;
-        background-size: cover;
+    p {
+        font-size: 1.20rem;
+        text-align: justify;
     }
     .formulario{
-        margin: 15%;
+        padding: 1rem;
+    }
+    .formTitle{
+        font-size: 1.5rem;
+    }
+    .footer p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .imgGalery {
+        max-width: 90%;
     }
 }
 @media screen and (max-width: 1023px) {

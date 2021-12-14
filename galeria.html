@@ -6,18 +6,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Galería</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 <body>
        <!-- header del sitio -->
        <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
             <a href="index.html">
-                <img class="logoNav" src="/images/logoNav.jpg" alt="Imagine Dragons Logo">
+                <img class="logoNav" src="./images/logoNav.jpg" alt="Imagine Dragons Logo">
             </a>
           <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="./index.html">Home</a>
@@ -40,43 +41,46 @@
       </nav>
     <!-- fin del header -->  
     <div>
+      <!-- inicio imagenes --> 
         <p class="titulo">Imágenes</p> 
     </div>
     <div class="maxWidth">
         <div class="galery">
             <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria1.jpg" alt="">
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria1.jpg" alt="Imagine Dragons">
             </div>
             <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria2.jpg" alt="">
-            </div>
-        </div>
-        <div class="galery">
-            <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria3.jpg" alt="">
-            </div>
-            <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria4.jpg" alt="">
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria2.jpg" alt="Imagine Dragons">
             </div>
         </div>
         <div class="galery">
             <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria5.jpg" alt="">
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria3.jpg" alt="Imagine Dragons">
             </div>
             <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria6.jpg" alt="">
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria4.jpg" alt="Imagine Dragons">
             </div>
         </div>
         <div class="galery">
             <div>
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria7.jpg" alt="">
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria5.jpg" alt="Imagine Dragons">
+            </div>
+            <div>
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria6.jpg" alt="Imagine Dragons">
+            </div>
+        </div>
+        <div class="galery">
+            <div>
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria7.jpg" alt="Imagine Dragons">
             </div>
             <div">
-                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="images/galeria8.jpg" alt="">
+                <img class="imgGalery wow animate__animated animate__zoomIn animate__delay-1.5s" src="./images/galeria8.jpg" alt="Imagine Dragons">
             </div>
         </div>
     </div>
     <div>
+      <!-- fin imagenes --> 
+      <!-- inicio videos --> 
         <p class="titulo">Videos</p>
     </div>
     <div class="videos maxWidth wow animate__animated animate__slideInRight">
@@ -90,18 +94,21 @@
             <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/0I647GU3Jsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
+      <!-- fin videos -->
     <!-- inicio de footer-->
-    <footer>
-        <div>
-            <a href="https://www.facebook.com/ImagineDragons/" target="blank"> Facebook</a>
-            <a href="https://www.instagram.com/imaginedragons/" target="blank">Instagram</a>
-            <a href="https://twitter.com/Imaginedragons" target="blank">Twitter</a>
-            <a href="https://www.youtube.com/user/ImagineDragonsVEVO" target="blank">Youtube</a>
-            <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q" target="blank">Spotify</a>
-        </div>
-        <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
-    </footer>
-    <!-- fin de footer-->
+ <div class="footer d-flex flex-wrap-reverse align-items-center bottom-0 pt-2">
+    <div class="col-12 col-xl-6 text-center">
+      <p>Página sin fines de lucro ni comerciales - Hecho por Paula Kunning</p>
+    </div>        
+    <div class="col-12 col-xl-6 text-center">
+      <a href="https://www.facebook.com/ImagineDragons/" target="blank"><i class="bi bi-facebook px-2"></i></a>
+      <a href="https://www.instagram.com/imaginedragons/" target="blank"><i class="bi bi-instagram px-2"></i></a>
+      <a href="https://twitter.com/Imaginedragons" target="blank"><i class="bi bi-twitter px-2"></i></a>
+      <a href="https://www.youtube.com/user/ImagineDragonsVEVO" target="blank"><i class="bi bi-youtube px-2"></i></a>
+      <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q" target="blank"><i class="bi bi-spotify px-2"></i></a>
+    </div>
+ </div>
+<!-- fin de footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
     <script src="js/wow.js"></script>
     <script> new WOW().init();</script>
