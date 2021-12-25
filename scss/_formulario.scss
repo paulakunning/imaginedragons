@@ -1,0 +1,13 @@
+@import "variables";
+.formulario {
+    background: rgb(94,80,63);
+    background: $bg-form;
+    border-radius: 20px;
+    padding: 3rem;
+    margin-top: 5rem;
+}
+.formTitle {
+    font-size: map-get($sizeMap, medium);
+    font-family: $FontCormorant;
+    color: $color2;
+}

@@ -1,0 +1,19 @@
+@import "variables";
+.footer {
+    background-color: $color1;
+    color: $color2;
+    font-family: $FontCormorant;
+    line-height: 2.3rem;
+        a {
+            text-decoration: none;
+            color: $color2;
+            font-size: 2rem;
+                &:hover {
+                    color: $color3;
+                }
+        }
+        p {
+            font-size: 1.25rem;
+            font-family: $FontCormorant;
+        }
+}

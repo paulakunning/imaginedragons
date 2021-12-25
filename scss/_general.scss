@@ -1,0 +1,71 @@
+@import "variables";
+@import "tools";
+body {
+    background-color: $color1;
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        p {
+        color: $color2;
+        font-family: $FontMaven;
+            }
+    }
+.style {
+    background-color: $bg-black;
+    color: $color2;
+}
+.titulo {
+    @include fonts();
+    font-size: map-get($sizeMap, large);
+    @extend .style;
+    margin-top: 3rem;
+}
+.subtitulo {
+    background-color: $bg-black;
+    text-align: center;
+    font-size: map-get($sizeMap, small);
+}
+.box {
+    border: solid 1px $color3;
+    background-color: $bg-black;
+}
+.bg-black {
+    @extend .style;
+    border-radius: 1rem;
+}
+.tituloInt {
+    @include fonts();
+    font-size: map-get($sizeMap, large);
+    padding: 2rem;
+    text-transform: uppercase;
+}
+.tour {
+    ul  {
+        li {
+            @extend .style;
+            font-weight: bold;
+            }
+        } 
+    }
+.titleCds {
+    @include fonts();
+    font-size: map-get($sizeMap, medium);
+    color: $color2;
+}
+.songs {
+    color: $color2;
+}
+.tapaCd{
+    width: 200px;
+    height: 200px;
+}
+.bg-cd{
+    background-color:  rgba(71, 61, 50, 0.7);
+}
+.tapaTitulo{
+    @include fonts ();
+    font-size: map-get($sizeMap, large);
+    color: $color2;
+}

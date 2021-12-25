@@ -1,0 +1,32 @@
+.imgAuto{
+    width: 100%;
+    height: auto;
+}
+.maxWidth{
+    max-width: 1170px;
+    margin: auto;
+}
+.imgGalery{
+    max-width: 500px;
+    height: auto;
+    margin: 1rem;
+}
+.galery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    align-items: stretch;
+} 
+.imgGalery{
+    max-width: 500px;
+    height: auto;
+    margin: 1rem;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.video{
+    max-width: 90%;
+} 

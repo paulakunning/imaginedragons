@@ -1,0 +1,48 @@
+@import "variables";
+@import "general";
+@import "header";
+@import "footer";
+@import "images";
+@import "tools";
+@import "formulario";
+@media screen and (max-width: 992px) {
+    .tituloInt {
+        font-size: map-get($sizeMap, medium);
+    }
+    .titulo {
+        font-size: map-get($sizeMap, medium);
+    }
+    p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .formulario {
+        padding: 1rem;
+    }
+    .formTitle {
+        font-size: 1.5rem;
+    }
+    .footer {
+                p {
+            font-size: 1.2rem;
+            text-align: center;
+                }
+            }
+    .galery{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;   
+        align-content: center;
+    } 
+    .imgGalery{
+        max-width: 300px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .wow {
+         animation-name: none !important;
+         visibility: visible !important;
+    
+        }
+}

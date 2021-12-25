@@ -1,0 +1,16 @@
+@import "variables";
+.navbar {
+    background-color: black;
+    font-family: $FontCormorant;
+    font-size: 1.5rem;
+    height:auto;
+        a {
+            color: $color2;
+                &:hover {
+                    color: $color3;
+                }
+        }
+}
+.logoNav{
+    max-width: 40%;
+}
