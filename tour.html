@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="¡Conseguí tus tickets para Mercury Act1 World Tour!">
     <meta name="keywords" content="imagine dragons, MercuryAct1, MercuryAct1 world tour, tickets, recital">
+    <link rel="icon" sizes="180x180" href="/favicon_io/favicon.ico">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
@@ -16,12 +18,14 @@
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="index.html">
-            <img class="logoNav" src="./images/logoNav.jpg" alt="Imagine Dragons Logo">
-          </a>
-          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div>
+              <a href="index.html">
+                  <img class="logoNav" src="./images/logoNav.jpg" alt="Imagine Dragons Logo">
+              </a>
+              <button class="navbar-toggler navbar-dark float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
           <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -46,64 +50,84 @@
     </header>
       <!-- fin del header -->
     <main>
-      <div class="container-fluid col-lg-10 offset-lg-1">
-          <img class="imgAuto" src="./images/Tour.jpg" alt="Imagine Dragons">
+      <div class="container-fluid col-lg-10 offset-lg-1 text-center animate__animated animate__backInDown">
+          <img class="img-fluid rounded-3" src="./images/Tour.jpg" alt="Imagine Dragons">
       </div>
       <div class="container-fluid col-lg-10 offset-lg-1 text-center flex-wrap">
         <h1 class="titulo">Mercury Tour 2022</h1>
         <div class="container">
           <div class="row mt-2">
-              <div class=" tour col-10 offset-1 mb-5">
+              <div class="tour tourBtn mb-5">
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">MIAMI, FL, USA - FTX ARENA</li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">6 FEBRERO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">RALEIGH, NC, USA - PNC ARENA</li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">10 FEBRERO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">COLUMBIA, SC, USA - COLONIAL LIFE ARENA</li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">12 FEBRERO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">MONTREAL, CANADA - CENTRE BELL</li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">16 FEBRERO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">VANCOUVER, CANADA - ROGERS ARENA </li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">4 MARZO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">LOS ANGELES, CA, USA - STAPLES CENTER</li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">12 MARZO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">PRAGUE, CZECH REPUBLIC - LETNANY AIRPORT</li>
                       <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">30 MAYO</li>
-                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                      <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                   </ul>
                   <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                     <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">MILAN, ITALY - I-DAYS (FESTIVAL)</li>
                     <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">11 JUNIO</li>
-                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                    <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                 </ul>
                 <ul class="list-group list-group-horizontal-sm py-1 wow animate__animated animate__flipInX">
                   <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">BERLIN, GERMANY - WALDBUHNEL</li>
                   <li class="list-group-item col-12 col-md-4 col-xl-4 text-center">5 JULIO</li>
-                  <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"> <a href="#" class="btn btn-dark">TICKET</a></li>
+                  <li class="list-group-item col-12 col-md-4 col-xl-4 text-center"><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">TICKET</a></li>
                 </ul>
               </div>
           </div>
       </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header mx-3">
+              <h5 class="modal-title ms-2" id="exampleModalLabel">¡PRÓXIMAMENTE!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-footer">
+              <a href="./index.html"><button type="button" class="btn me-2">Volver a Home</button></a>
+              <button type="button" class="btn me-3" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+      </div>
+  <!-- fin modal -->
+    </main>
+  <!-- inicio back to top-->
+    <div class="col-1 offset-10 offset-xl-11 col-sm-2 mb-3">
+      <a href="#"><i class="backToTop bi bi-chevron-up btn btn-dark btn-lg" role="button"></i></a>
     </div>
-  </main>
+  <!-- fin back to top-->
   <!-- inicio de footer-->
   <footer class="footer d-flex flex-wrap-reverse align-items-center bottom-0 pt-2">
     <div class="col-12 col-xl-6 text-center">

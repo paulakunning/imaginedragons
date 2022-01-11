@@ -26,28 +26,44 @@
                 p {
             font-size: 1.2rem;
             text-align: center;
-                }
             }
+    }
+    .formFooter {
+        position: static;
+    }
+    .imgCarousel {
+         max-width: 992px;
+         height: auto;
+    }
     .imgGalery{
         max-width: 500px;
         height: auto;
     }
 }
-@media screen and (max-width: 768px)
-{
-    .imgGalery{
+@media screen and (max-width: 768px) {
+    .imgCarousel {
+        max-width: 768px;
+        height: auto;
+    }
+    .imgGalery {
         max-width: 400px;
         height: auto;
     }
+    .logoNav {
+        max-width: 70%;
+    }
 }
-@media screen and (max-width: 576px)
-{
-    .imgGalery{
+@media screen and (max-width: 576px) {
+    .imgCarousel {
+        max-width: 576px;
+        height: auto;
+    }
+    .imgGalery {
         max-width: 300px;
         height: auto;
     }
-    .video{
-        iframe{
+    .video {
+        iframe {
             max-width: 300px;
             height: auto;
         }
@@ -57,6 +73,11 @@
     .wow {
          animation-name: none !important;
          visibility: visible !important;
-    
-        }
+    }
+}
+@media screen and (max-width: 1400px) {
+    .imgGalery {
+        max-width: 550px;
+        height: auto;
+    }
 }

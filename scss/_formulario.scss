@@ -2,20 +2,69 @@
 .formulario {
     padding: 3rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     backdrop-filter: blur(18px) saturate(99%);
     -webkit-backdrop-filter: blur(18px) saturate(99%);
     background-color: rgba(94, 80, 63, 0.62);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
-.formSubtitle{
+.formSubtitle {
     color:$color2;
     background-color: rgba(0, 0, 0, 0.60);
     font-size: map-get($sizeMap, medium);
 }
 .formTitle {
-    font-size: map-get($sizeMap, large);
+    font-size: 2.5rem;
     font-family: $FontCormorant;
     color: $color2;
+}
+.formBtn button {
+        background-color: $color1;
+        color: $color2;
+        border-color: $color2;
+            &:hover {
+                background-color: $color3;
+                color: $color1;
+            }
+}
+.modal-content {
+    background-color: $color1;
+    color: $color2;
+    border-color: $color2;
+    font-size: map-get($sizeMap, small);
+        button {
+            background-color: $color2;
+            color: $color1;
+                &:hover{
+                    background-color: $color3;
+                    color: $color1;
+                }
+        }
+        p {
+            text-align: center;
+        }
+}
+.form-check-input {
+     &:checked {
+    background-color: $color4;
+    border-color: $color3; 
+    color: $color1; 
+    }
+}
+.modal-title {
+    @include fonts();
+    font-size: map-get($sizeMap, medium)
+}
+.modal-header {
+    border-bottom: none;
+    padding: 1.5rem;
+}
+.modal-footer {
+    border-top: none;
+}
+.formFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

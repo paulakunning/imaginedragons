@@ -10,8 +10,8 @@ body {
         p {
         color: $color2;
         font-family: $FontMaven;
-            }
-    }
+        }
+}
 .style {
     background-color: $bg-black;
     color: $color2;
@@ -42,13 +42,25 @@ body {
     text-transform: uppercase;
 }
 .tour {
-    ul  {
+    ul {
         li {
             @extend .style;
             font-weight: bold;
             }
         } 
     }
+.tourBtn {
+    a {
+    background-color: $color2;
+    color: $color1;
+        &:hover {
+        background-color: $color3;
+        }
+        &:after {
+        background-color: $color3;
+        }
+    }
+}
 .titleCds {
     @include fonts();
     font-size: map-get($sizeMap, medium);
@@ -68,4 +80,12 @@ body {
     @include fonts ();
     font-size: map-get($sizeMap, large);
     color: $color2;
+}
+.backToTop{
+    background-color: $color2;
+    color: $color1;
+        &:hover{
+            background-color: $color3;
+            color: $color1;
+        }
 }
