@@ -57,7 +57,7 @@
 /* Background */
 body {
   background-color: #0a0908ff;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,10 +114,6 @@ body {
 
 .songs {
   color: #c6ac8fff; }
-
-.tapaCd {
-  width: 200px;
-  height: 200px; }
 
 .bg-cd {
   background-color: rgba(71, 61, 50, 0.7); }
@@ -202,10 +198,6 @@ body {
   bottom: 0;
   width: 100%; }
 
-.imgGalery {
-  max-width: 768px;
-  height: auto; }
-
 .imgCarousel {
   width: 100%;
   height: 100vh;
@@ -226,7 +218,7 @@ body {
 /* Background */
 body {
   background-color: #0a0908ff;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -284,10 +276,6 @@ body {
 .songs {
   color: #c6ac8fff; }
 
-.tapaCd {
-  width: 200px;
-  height: 200px; }
-
 .bg-cd {
   background-color: rgba(71, 61, 50, 0.7); }
 
@@ -337,10 +325,6 @@ body {
   .footer p {
     font-size: 1.25rem;
     font-family: "Cormorant", serif; }
-
-.imgGalery {
-  max-width: 768px;
-  height: auto; }
 
 .imgCarousel {
   width: 100%;
@@ -437,17 +421,11 @@ body {
     position: static; }
   .imgCarousel {
     max-width: 992px;
-    height: auto; }
-  .imgGalery {
-    max-width: 500px;
     height: auto; } }
 
 @media screen and (max-width: 768px) {
   .imgCarousel {
     max-width: 768px;
-    height: auto; }
-  .imgGalery {
-    max-width: 400px;
     height: auto; }
   .logoNav {
     max-width: 70%; } }
@@ -457,18 +435,16 @@ body {
     max-width: 576px;
     height: auto; }
   .imgGalery {
-    max-width: 300px;
+    max-width: 95%;
     height: auto; }
   .video iframe {
     max-width: 300px;
+    height: auto; }
+  .tapaCd {
+    max-width: 150px;
     height: auto; } }
 
 @media screen and (max-width: 1023px) {
   .wow {
     animation-name: none !important;
     visibility: visible !important; } }
-
-@media screen and (max-width: 1400px) {
-  .imgGalery {
-    max-width: 550px;
-    height: auto; } }

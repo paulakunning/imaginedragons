@@ -2,7 +2,7 @@
 @import "tools";
 body {
     background-color: $color1;
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/background.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,10 +68,6 @@ body {
 }
 .songs {
     color: $color2;
-}
-.tapaCd{
-    width: 200px;
-    height: 200px;
 }
 .bg-cd{
     background-color:  rgba(71, 61, 50, 0.7);

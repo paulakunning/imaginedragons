@@ -35,18 +35,10 @@
          max-width: 992px;
          height: auto;
     }
-    .imgGalery{
-        max-width: 500px;
-        height: auto;
-    }
 }
 @media screen and (max-width: 768px) {
     .imgCarousel {
         max-width: 768px;
-        height: auto;
-    }
-    .imgGalery {
-        max-width: 400px;
         height: auto;
     }
     .logoNav {
@@ -59,7 +51,7 @@
         height: auto;
     }
     .imgGalery {
-        max-width: 300px;
+        max-width: 95%;
         height: auto;
     }
     .video {
@@ -68,16 +60,14 @@
             height: auto;
         }
     }
+    .tapaCd{
+        max-width: 150px;
+        height: auto;
+    }
 }
 @media screen and (max-width: 1023px) {
     .wow {
          animation-name: none !important;
          visibility: visible !important;
-    }
-}
-@media screen and (max-width: 1400px) {
-    .imgGalery {
-        max-width: 550px;
-        height: auto;
     }
 }
