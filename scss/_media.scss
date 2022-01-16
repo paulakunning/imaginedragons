@@ -2,9 +2,25 @@
 @import "general";
 @import "header";
 @import "footer";
-@import "images";
 @import "tools";
 @import "formulario";
+@media screen and (max-width: 576px) {
+    .video {
+        iframe {
+            max-width: 90%;
+            height: auto;
+        }
+    }
+    .tapaCd{
+        max-width: 150px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logoNav {
+        max-width: 70%;
+    }
+}
 @media screen and (max-width: 992px) {
     .tituloInt {
         font-size: map-get($sizeMap, medium);
@@ -31,38 +47,11 @@
     .formFooter {
         position: static;
     }
-    .imgCarousel {
-         max-width: 992px;
-         height: auto;
-    }
-}
-@media screen and (max-width: 768px) {
-    .imgCarousel {
-        max-width: 768px;
-        height: auto;
-    }
-    .logoNav {
-        max-width: 70%;
-    }
-}
-@media screen and (max-width: 576px) {
-    .imgCarousel {
-        max-width: 576px;
-        height: auto;
-    }
-    .imgGalery {
-        max-width: 95%;
-        height: auto;
-    }
-    .video {
-        iframe {
-            max-width: 300px;
-            height: auto;
+    .navbar-collapse {
+        max-width: 40%;
+        a {
+            border-radius: 0;
         }
-    }
-    .tapaCd{
-        max-width: 150px;
-        height: auto;
     }
 }
 @media screen and (max-width: 1023px) {

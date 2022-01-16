@@ -6,11 +6,20 @@
     height:auto;
         a {
             color: $color2;
-                &:hover {
-                    color: $color3;
+                &:hover, &:active {
+                    color: $color1;
+                    background-color: $color2;
+                    border-radius: 5%;
                 }
         }
 }
-.logoNav{
+.active {
+    background-color: rgb(39, 37, 37);
+    border-radius: 5%;
+}
+.nav-item {
+    padding: 5px;
+}
+.logoNav {
     max-width: 40%;
 }

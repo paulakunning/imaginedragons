@@ -25,8 +25,17 @@
   height: auto; }
   .navbar a {
     color: #c6ac8fff; }
-    .navbar a:hover {
-      color: #5e503fff; }
+    .navbar a:hover, .navbar a:active {
+      color: #0a0908ff;
+      background-color: #c6ac8fff;
+      border-radius: 5%; }
+
+.active {
+  background-color: #272525;
+  border-radius: 5%; }
+
+.nav-item {
+  padding: 5px; }
 
 .logoNav {
   max-width: 40%; }
@@ -197,12 +206,6 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%; }
-
-.imgCarousel {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  filter: brightness(80%); }
 
 /* Fuentes */
 /* Colores */
@@ -302,8 +305,17 @@ body {
   height: auto; }
   .navbar a {
     color: #c6ac8fff; }
-    .navbar a:hover {
-      color: #5e503fff; }
+    .navbar a:hover, .navbar a:active {
+      color: #0a0908ff;
+      background-color: #c6ac8fff;
+      border-radius: 5%; }
+
+.active {
+  background-color: #272525;
+  border-radius: 5%; }
+
+.nav-item {
+  padding: 5px; }
 
 .logoNav {
   max-width: 40%; }
@@ -325,12 +337,6 @@ body {
   .footer p {
     font-size: 1.25rem;
     font-family: "Cormorant", serif; }
-
-.imgCarousel {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  filter: brightness(80%); }
 
 /* Fuentes */
 /* Colores */
@@ -402,6 +408,18 @@ body {
   bottom: 0;
   width: 100%; }
 
+@media screen and (max-width: 576px) {
+  .video iframe {
+    max-width: 90%;
+    height: auto; }
+  .tapaCd {
+    max-width: 150px;
+    height: auto; } }
+
+@media screen and (max-width: 768px) {
+  .logoNav {
+    max-width: 70%; } }
+
 @media screen and (max-width: 992px) {
   .tituloInt {
     font-size: 2rem; }
@@ -419,30 +437,10 @@ body {
     text-align: center; }
   .formFooter {
     position: static; }
-  .imgCarousel {
-    max-width: 992px;
-    height: auto; } }
-
-@media screen and (max-width: 768px) {
-  .imgCarousel {
-    max-width: 768px;
-    height: auto; }
-  .logoNav {
-    max-width: 70%; } }
-
-@media screen and (max-width: 576px) {
-  .imgCarousel {
-    max-width: 576px;
-    height: auto; }
-  .imgGalery {
-    max-width: 95%;
-    height: auto; }
-  .video iframe {
-    max-width: 300px;
-    height: auto; }
-  .tapaCd {
-    max-width: 150px;
-    height: auto; } }
+  .navbar-collapse {
+    max-width: 40%; }
+    .navbar-collapse a {
+      border-radius: 0; } }
 
 @media screen and (max-width: 1023px) {
   .wow {
