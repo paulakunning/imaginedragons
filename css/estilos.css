@@ -3,21 +3,6 @@
 /* Colores */
 /* Background */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-/* Fuentes */
-/* Colores */
-/* Background */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Maven+Pro&display=swap");
 .navbar {
   background-color: black;
   font-family: "Cormorant", serif;
@@ -25,7 +10,7 @@
   height: auto; }
   .navbar a {
     color: #c6ac8fff; }
-    .navbar a:hover, .navbar a:active {
+    .navbar a:hover, .navbar a:activegit s {
       color: #0a0908ff;
       background-color: #c6ac8fff;
       border-radius: 5%; }
@@ -40,9 +25,6 @@
 .logoNav {
   max-width: 40%; }
 
-/* Fuentes */
-/* Colores */
-/* Background */
 .footer {
   background-color: #0a0908ff;
   color: #c6ac8fff;
@@ -58,12 +40,6 @@
     font-size: 1.25rem;
     font-family: "Cormorant", serif; }
 
-/* Fuentes */
-/* Colores */
-/* Background */
-/* Fuentes */
-/* Colores */
-/* Background */
 body {
   background-color: #0a0908ff;
   background-image: url("../images/background.png");
@@ -140,9 +116,6 @@ body {
     background-color: #5e503fff;
     color: #0a0908ff; }
 
-/* Fuentes */
-/* Colores */
-/* Background */
 .formulario {
   padding: 3rem;
   margin-top: 2rem;
@@ -210,15 +183,6 @@ body {
 /* Fuentes */
 /* Colores */
 /* Background */
-/* Fuentes */
-/* Colores */
-/* Background */
-/* Fuentes */
-/* Colores */
-/* Background */
-/* Fuentes */
-/* Colores */
-/* Background */
 body {
   background-color: #0a0908ff;
   background-image: url("../images/background.png");
@@ -295,9 +259,6 @@ body {
     background-color: #5e503fff;
     color: #0a0908ff; }
 
-/* Fuentes */
-/* Colores */
-/* Background */
 .navbar {
   background-color: black;
   font-family: "Cormorant", serif;
@@ -305,7 +266,7 @@ body {
   height: auto; }
   .navbar a {
     color: #c6ac8fff; }
-    .navbar a:hover, .navbar a:active {
+    .navbar a:hover, .navbar a:activegit s {
       color: #0a0908ff;
       background-color: #c6ac8fff;
       border-radius: 5%; }
@@ -320,9 +281,6 @@ body {
 .logoNav {
   max-width: 40%; }
 
-/* Fuentes */
-/* Colores */
-/* Background */
 .footer {
   background-color: #0a0908ff;
   color: #c6ac8fff;
@@ -338,12 +296,6 @@ body {
     font-size: 1.25rem;
     font-family: "Cormorant", serif; }
 
-/* Fuentes */
-/* Colores */
-/* Background */
-/* Fuentes */
-/* Colores */
-/* Background */
 .formulario {
   padding: 3rem;
   margin-top: 2rem;
